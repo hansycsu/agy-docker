@@ -10,7 +10,16 @@ sudo ./build-docker.sh
 ./agy-sandbox.sh
 ```
 
-# Deployment (Optional)
+# Clipboard support (optional)
+
+To enable clipboard support, add the following command to your `~/.xprofile`:
+
+
+```
+xhost +local:docker > /dev/null 2>&1
+```
+
+# Deployment (optional)
 
 Copy the script to a directory in your `PATH`:
 ```
